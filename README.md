@@ -4,7 +4,7 @@ Run a multiple linear regression of one phenotype against one or more phenotypes
 
 ### Script Overview
 
-This script takes in a tab-delimited clinical traits file from the HMDP database, runs a mutliple regression of one phenotype on one or more other phenotypes, and writes the regression summary of results to a text file and the regression plots to a png file. The file should be preprocessed using preprocess.py from the [mouseGWASanalysis repository](https://github.com/nlapier2/mouseGWASAnalysisPackage). 
+This script takes in a tab-delimited clinical traits file from the HMDP database, runs a mutliple regression of one phenotype on one or more other phenotypes, and writes the regression summary of results to a text file and the regression plots to a png file. The file should be preprocessed using preprocess.py from the [mouseGWASAnalysisPackage](https://github.com/nlapier2/mouseGWASAnalysisPackage). 
 
 ### Running the Script
 
