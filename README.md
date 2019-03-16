@@ -13,6 +13,6 @@ Use Python3 is required to use this script. To run the script, simply run the fo
 python3 regress_pheno.py --clinical /path/to/my/preprocessed_clinical_traits_chow2.tsv --target Lean_mass --regress Fat_mass HDL NMR_total_Mass
 ```
 
-The script will write the [summary of OLS](https://www.statsmodels.org/dev/examples/notebooks/generated/ols.html) results from the mutliple linear regression to a text file  **regression_summary.txt** to the current directory. 
+The script will write the [summary of OLS results](https://www.statsmodels.org/dev/examples/notebooks/generated/ols.html) from the mutliple linear regression to a text file  **regression_summary.txt** to the current directory. 
 
 The script will save the Residual Plot, QQ Plot, Scale-Location Plot, and Leverage Plot to a png file **model_plots.png** to the current directory. 
