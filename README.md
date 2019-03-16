@@ -8,7 +8,7 @@ This script takes in a tab-delimited clinical traits file from the HMDP database
 
 ### Running the Script
 
-Use Python3 is required to use this script. To run the script, simply run the following command. In this example, the file is called **preprocessed_clinical_traits_chow2.tsv** and the phenotype to run the multiple linear regression on (dependent variable) from the file is **Lean_mass**, which is being regressed against the three phenotypes **Fat_mass**, **HDL**, and **NMR_total_Mass** (which should be separated by a space).  
+Use Python3 is required to use this script. To run the script, simply run the following command. In this example, the file is called **preprocessed_clinical_traits_chow2.tsv** and the dependent variable from the file is **Lean_mass**, which is being regressed against the three phenotypes **Fat_mass**, **HDL**, and **NMR_total_Mass** (which should be separated by a space in the command line).  
 ```
 python3 regress_pheno.py --clinical /path/to/my/preprocessed_clinical_traits_chow2.tsv --target Lean_mass --regress Fat_mass HDL NMR_total_Mass
 ```
