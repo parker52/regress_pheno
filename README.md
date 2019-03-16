@@ -13,4 +13,4 @@ python3 regress_pheno.py --clinical /path/to/my/preprocessed_clinical_traits_cho
 
 The script will write the [summary of OLS](https://www.statsmodels.org/dev/examples/notebooks/generated/ols.html) results from the mutliple linear regression to a text file  **regression_summary.txt** to the current directory. 
 
-The script will plot the Residual Plot, QQ Plot, Scale-Location Plot, and Leverage Plot to a png file **model_plots.png** to the current directory. 
+The script will save the Residual Plot, QQ Plot, Scale-Location Plot, and Leverage Plot to a png file **model_plots.png** to the current directory. 
